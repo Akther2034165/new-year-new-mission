@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
+}
+.merri-weather-font {
+  font-family: "Merriweather", serif;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.primary-color {
+  color: #ff0000;
+}
+.banner-container {
+  background: rgba(0, 0, 0, 0.3) url("../resources/BannerImage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+}
+.banner-text-container {
+  height: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.banner-text-container h4 {
+  font-size: 25px;
+}
+
+.offer-container {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 2;
+  font-family: "Inter", sans-serif;
+}
+.offer-container h1 {
+  font-weight: bold;
+  font-size: 35px;
+}
+.offer-container h3 {
+  font-weight: 400;
+  font-size: 16px;
+}
+.offer-container img {
+  width: 50%;
+}
