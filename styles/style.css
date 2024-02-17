@@ -103,3 +103,74 @@
   width: 50%;
   height: 400px;
 }
+
+.event-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+  font-family: "Inter", sans-serif;
+  background-image: linear-gradient(rgb(255, 216, 216), #ffffff);
+  padding: 40px;
+}
+.event-container h1 {
+  font-size: 25px;
+}
+.event-button {
+  padding: 10px 8px;
+  border: 0;
+  outline: 0;
+  background-color: #ff0000;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 3px;
+  margin: 10px 0;
+}
+
+.best-offer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  margin: 30px 0;
+}
+.best-offer-container > div {
+  flex: 1;
+}
+.best-offer-subtitle {
+  margin: 10px 0;
+}
+.best-offer-description {
+  margin: 10px 0;
+}
+.best-offer-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.best-offer-image-container img {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #ff0000;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.best-offer-image {
+  height: 100px;
+}
+
+.portfolio-text-container {
+  font-family: "Inter", serif;
+}
+
+.porfolio-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin: 20px 0;
+}
+.porfolio-card-container div > img {
+  height: 400px;
+}
