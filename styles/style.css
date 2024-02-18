@@ -183,6 +183,12 @@
   grid-gap: 10px;
   margin: 20px 0;
 }
+.porfolio-card-container div {
+  transition: transform 0.3s ease;
+}
+.porfolio-card-container div:hover {
+  transform: scale(0.8);
+}
 .porfolio-card-container div > img {
   height: 400px;
 }
